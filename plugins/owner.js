@@ -5,8 +5,8 @@ module.exports = {
    category: 'general',
    desc: 'sends owner number.',
    async exec(citel, Void,args) {
-     let head = 'SamPandey001'
-     let body = 'Secktor-Md'
+     let head = 'SilvaTech'
+     let body = 'Silva-Md'
      let url = `https://wa.me/+`+owner[0]+'?text=Hii bro,I am '+citel.pushName,
      let imgbuff = await getBuffer('https://avatars.githubusercontent.com/u/104565822?v=4')
      
